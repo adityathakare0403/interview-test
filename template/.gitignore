@@ -1,0 +1,34 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Test coverage and vitest output
+coverage/
+*.tsbuildinfo
+
+
+# Yarn/pnpm lock files 
+yarn.lock
+pnpm-lock.yaml
+
+# Others
+*.local
+*.cache

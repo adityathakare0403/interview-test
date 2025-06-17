@@ -28,4 +28,11 @@ export interface VoiceEntry {
 export interface ProcessedResult {
   summary: string;
   tagFrequencies: Record<string, number>;
-} 
+  tasks: {
+    task_text: string;
+    due_date: string | null;
+    status: string;
+    category: string;
+    score?: number; // Relevance score for query-based matching
+  }[];
+}
